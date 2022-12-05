@@ -1,0 +1,53 @@
+header {
+    background-color: Black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    min-width: 1440px;
+    justify-content: space-around;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    Width: 120px;
+    Height: 35px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links a {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 24px 20px 24px 20px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.basket-logo {
+    display: flex;
+    align-items: center;
+}
+
+.basket-logo img {
+    width: 40px;
+    height: 37px;
+}

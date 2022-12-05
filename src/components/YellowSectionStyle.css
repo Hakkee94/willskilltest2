@@ -1,0 +1,120 @@
+
+
+section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-image: url("../assets/yellow-background.png");
+    z-index: -2;
+}
+
+.yellow-section-container {
+    min-width: 1440px;
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.yellow-section-content {
+    display: flex;
+    position: relative;
+}
+
+.yellow-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yellow-pictures img {
+    position: absolute;
+    right: -2%;
+    top: 80px;
+    z-index: -1;
+}
+
+.lemon img {
+    position: absolute;
+    width: 533px;
+    height: 462px;
+    right: 11%;
+    top: 65%;
+}
+
+.bottle img {
+    position: absolute;
+    width: 224px;
+    height: 635px;
+    top: 15%;
+    right: 6%;
+}
+
+.ginger img {
+    position: absolute;
+    width: 496px;
+    height: 409px;
+    top: 50%;
+    right: 10%;
+}
+
+.yellow-text {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
+.yellow-main-text {
+    padding: 96px 0 120px 0;
+}
+
+.yellow-main-text h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.yellow-main-text h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: start;
+    padding-top: 24px;
+}
+
+.yellow-additional-text {
+    padding-bottom: 96px;
+}
+
+.yellow-additional-text h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.yellow-additional-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+

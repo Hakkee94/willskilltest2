@@ -1,0 +1,157 @@
+.final-section {
+    background: #111111;
+    min-height: 962px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.final-section-container {
+    min-width: 1440px;
+}
+
+.final-section-title {
+    padding: 110px 64px 85px 64px;
+}
+
+.final-section-title h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.final-section-title span {
+    color: Orange;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ADADAD;
+    padding-right: 16px;
+    text-decoration: line-through;
+}
+
+.now h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+
+.final-section-pictures-block {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.ginger-img img {
+    width: 193px;
+    height: 168px;
+}
+
+.ginger-img {
+    padding-bottom: 45px;
+}
+
+.ginger-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.ginger-text span {
+    color: rgba(252, 181, 0, 1);
+}
+
+.bottle-img img {
+    width: 480px;
+    height: 160px;
+}
+
+.bottle-img {
+    padding-bottom: 50px;
+}
+
+.bottle-text h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.bottle-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCB500;
+    margin: 0;
+}
+
+.virus-img img {
+    width: 192px;
+    height: 160px;
+}
+
+.virus-img {
+    padding-bottom: 50px;
+}
+
+.virus-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.virus-text span {
+    color: #FCB500;
+}
+
+.order-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 112px;
+}
+
+.order-btn button {
+    background: #FCB500;
+    border-radius: 7px;
+    width: 256px;
+    height: 56px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
